@@ -15,6 +15,9 @@ comes with a hammerspoon script to send mac os mouse position info to the render
 
 #### setting up macos machine
 
+**NOTE: Depending of your system, you might crank up 100 messages per second
+when constantly moving your mouse, be aware of that in your setup.**
+
 depedencies:
 
 - https://www.hammerspoon.org/
