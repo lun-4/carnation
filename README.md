@@ -33,7 +33,8 @@ then add relevant config to `~/.hammerspoon/init.lua`
 hs.loadSpoon("carnation")
 spoon.carnation.config_url = "192.168.33.22"
 spoon.carnation.config_port = 6699
-spoon.carnation.screen_dimensions = {3072, 1920}
+-- this might be different than your monitor's dimension. be aware of that
+spoon.carnation.screen_dimensions = {1791.984, 1119.984}
 spoon.carnation:start()
 ```
 
