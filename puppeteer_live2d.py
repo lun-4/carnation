@@ -14,9 +14,9 @@ class EchoServerProtocol:
 
     def datagram_received(self, data, addr):
         message = data.decode()
+        print("received message", message)
         if message.startswith("!angles"):
             _, angle_x, angle_y = message.split()
-            print("recv angles", angle_x, angle_y)
             self.process.stdin.write(f"set ParamAngleX {angle_x}\n".encode())
             self.process.stdin.write(f"set ParamAngleY {angle_y}\n".encode())
         else:
