@@ -59,7 +59,7 @@ async def main():
     )
 
     try:
-        await asyncio.sleep(3600)
+        await vtuber_process.wait()
     finally:
         transport.close()
         vtuber_process.kill()
