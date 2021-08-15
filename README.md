@@ -21,7 +21,7 @@ depedencies:
 
 ```sh
 git clone https://github.com/lun-4/carnation.git
-ln -s (realpath ./carnation/carnation.spoon) ~/.hammerspoon/Spoons/
+ln -s $(realpath ./carnation/carnation.spoon) ~/.hammerspoon/Spoons/
 ```
 
 then add relevant config to `~/.hammerspoon/init.lua`
